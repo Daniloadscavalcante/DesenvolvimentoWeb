@@ -1,0 +1,113 @@
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.container{
+	width:100%;
+	height:230px;
+	background:#B22222;
+	color: #FFFAFA;
+
+}
+
+.logo1{
+	float: left;
+	padding: 10px
+}
+
+.logo2{
+	float: right;
+	padding: 10px
+}
+ 
+
+
+
+.menu{
+	width:990px;
+	height:50px;
+	line-height:50px;
+	margin: 0 auto 0 auto;
+	background:#228B22;
+	height: 70px;
+
+}
+
+.menu ul{
+	font-family: cambria,arial;
+	margin: auto;
+	list-style-type: none;
+	font size: 14px;
+}
+.menu ul li{
+	float: left;
+	position: relative;
+}
+.menu ul li a{		/*configuraçao do menu*/
+	text-decoration: none;
+	float: left;
+	color: #fff;
+	display: block;  /*para cada elemento se comportar como um bloco*/
+	width: auto; /*largura do bloco*/
+	line-height: 50px;
+	padding-right: 10px; /*faz com que o elemnto se afasta pra direita*/
+	padding-left: 10px;	 /*faz com que o elemnto se afasta pra esquerda*/
+}
+
+.menu ul li a:hover{
+	background: #228B22;
+	color: #8FBC8F;
+}
+
+.email{
+	margin-top:80px;
+	background: #7B68EE;
+	width: 300px;
+	line-height: 50px;
+	margin: 0 auto 0 900px;
+	text-align: right;
+	margin-top: -69px;
+
+}
+h1{
+	width: 900px;
+	margin: 0 auto 0 500px;
+	margin-top: 70px;
+	background:#000000; /*cor preta*/
+
+}
+.conteudo{
+	background: #FFDEAD;
+
+	height: 1500px;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	margin-top: 72px;
+	color: #000;
+}
+.coluna1{
+	background: #696969;
+	width: 333px;
+	height: 400px;
+	float:left;
+}
+.coluna2{
+	background: #696969;
+	width: 333px;
+	height: 400px;
+	float: left;
+}
+p{
+	font-size: 40px;
+	padding:5px;
+	color: #000000;
+}
+
+.rodape{
+	width:100%;
+	background:#B22222;
+	height: 100px;
+
+}

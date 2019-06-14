@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+*{
+ text-align: center;
+}
+body{
+	background:#63c8f6;
+}
+#nome{
+	text-align:center;
+	text-decoration:none;
+	font-size:45px;
+	color:yellow;
+	font-weight:bold;
+}
+.img{
+	margin-top:115px;
+	float:left;
+}
+.imgs{
+	margin-right:15px;
+	float:right;
+}
+#menu{
+	font-size:22px;
+	width:1340px;
+	background:black;
+	text-align:center;
+}
+li,ul a.link_menu:link, li a.link_menu:visited {
+	display: inline;
+	width: 250px;
+	padding: 5px 15px;
+	color:yellow;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: none;
+
+} 
+
+li,ul a.link_menu:hover, li a.link_menu:active {
+ 	display: inline;
+	width: 250px;
+	color: blue;
+	padding: 5px 15px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: none;
+	
+}
+
+
+#conteudo{
+	
+	width:100%;
+	height:500px;
+
+	
+	
+}
+#texto{
+	width:1050px;
+	alignment-adjust:auto;
+	height:427px;
+	float:left;
+	margin-top:5px;
+	font:Verdana, Geneva, sans-serif;
+
+}
+
+#menu_lateral{
+	text-align:center;
+	font-size:15px;
+}
+ul,li A.link_lateral:link, ul,li A.link_lateral:visited {
+	display:block;
+	background:url(file:///C|/Users/giovanne/Desktop/Projeto%20certo/img/ico_arrow_orange.png) no-repeat left;
+	padding: 5px 15px;
+	color:yellow;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: none;
+} 
+
+ul,li A.link_lateral:active, ul,li A.link_lateral:hover  {
+	display: block;
+	text-align: center;
+	background: url(ico_arrow_grey.png) no-repeat left;
+	color: #ff9600;
+	padding: 5px 15px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: none;	
+} 
+#menu_img {
+	display:block;
+	background:url(file:///C|/Users/giovanne/Desktop/Projeto%20certo/img/salvo.png)no-repeat ;
+	width: 666px; 
+	height: 195px; 
+	margin-top: 10px;
+	margin-right: 0px;
+	float:right;
+}
+#menu_img p {
+	padding-top: 125px;
+	padding-left: 400px;
+	color: black;
+	font-size: 1em;
+}
+#imagens{
+	float:left;
+	height:100%;
+}
+.imgss{
+	background:url(file:C|/Users/giovanne/Desktop/Projeto%20certo/img/coluna.png)repeat;
+	float:left;
+	height:100%;
+	width:1px;
+}
+#menu_direito{
+
+
+}
+	
+.direito{
+	
+	text-align:center;
+	font-weight:bold;
+	font-variant:small-caps;
+	text-decoration:none;
+	font: bold 23px harabara, tahoma, arial; 
+	color:yellow;
+	
+}
+h1{
+	text-align:center;
+	color:yellow;
+	text-decoration:underline;
+	font-size:25px;
+	margin-top:0px;
+}
