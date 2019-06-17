@@ -6,17 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- viewport é tomanho da tela, quando ver em um dispositivo menor tambem é um viewport porem menor essa é uma tang que se usa para sites responsivel--> 
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link  href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- importando css -->
+    <link href="estilo.css" rel="stylesheet">
 
     <title>Perfect Body</title>
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
+   
+   <nav class="navbar navbar-fixed-top navbar-default">  <!-- deixa a barra de navegação no topo -->
+
+    <div class="container">
+
+      <!-- header -->
+      <div class="navbar-header">
+        
+        <!-- botao toggle -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao"> <!-- ao  pressionar o botao exibi/oculta o menu 
+          <span class="icon-bar"></span> <!-- cria uma barra com os trees comando monta-se aquele menu lateral com 3 risquinho -->
+          <span class="sr-only">alternar navegação</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">PerfectBody </a>
+
+      </div>
+      
+      <!-- navbar -->
+      <div class="collapse navbar-collapse" id="barra-navegacao"> <!-- serve para escode a barra, quando estiver visualizando em um cel-->
+        <ul class="nav navbar-nav navbar-right"> <!-- barra de navegação a direita -->
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Fotos</a></li>
+          <li><a href="">Ajuda</a></li>
+          <li><a href="">Cotato-nos</a></li>
+           </ul>
+      </div>
+    </div>
+  </nav>
+
+    </div> <!-- fechamento container -->
+     
+
+   </nav><!-- tag de fechamento da nav -->
+
+
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
   </body>
 </html>
