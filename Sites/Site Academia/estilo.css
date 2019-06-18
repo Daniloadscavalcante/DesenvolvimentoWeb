@@ -1,0 +1,22 @@
+
+
+
+/*==============layout===========================*/
+
+body{
+	background: url('img/fundo.jpg');
+}
+
+/*===Barra de navegação===*/
+
+nav.navbar-transparente{
+	padding: 15px 0px; /* para deixa a barra mais alta*/
+	background: rgba(0,0,0, 0.6);/* valores final é para transparencia*/
+	border: none;
+}
+.navbar-brand{
+	margin-top: -30px;
+
+}
+
+/*=====================Tipografia formatação de texto======================*/
