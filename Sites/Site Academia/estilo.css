@@ -2,21 +2,79 @@
 
 
 /*==============layout===========================*/
+html, body, .capa{
+	height: 100%;
+}
 
 body{
 	background: url('img/fundo.jpg');
+	font-family: Helvetica,Arial,sans-serif;
+
 }
 
-/*===Barra de navegação===*/
 
+/*===Barra de navegação===*/
 nav.navbar-transparente{
 	padding: 15px 0px; /* para deixa a barra mais alta*/
 	background: rgba(0,0,0, 0.6);/* valores final é para transparencia*/
 	border: none;
 }
-.navbar-brand{
-	margin-top: -30px;
-
+.logo{
+	font-size: 30px;
+	color: white;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover{/* mudando a cor dos links*/
+	color: #9bf0e1;
+} 
+
+.navbar-inverse .navbar-nav>li>a{/* mudando a cor dos links*/
+	color: white;
+} 
+
+
+
+/*===Imagem de capa====*/
+.capa{
+	display: table; /* tera um comportamento de tabela apra centralizar conforme resoluçao de dispositivos*/
+}
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;/*tera um comportamento de celula de tabela*/
+	vertical-align: middle;
+}
+
+
+/*===Serviços====*/
+#servicos{
+	padding-top: 20px;
+}
+
+.foto{
+	padding: 10px 0px 10px 0px;
+}
+
+
+
+
 /*=====================Tipografia formatação de texto======================*/
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05px;/*colocando espaçamentos entre letras*/
+}
+
+h2{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h3{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#servicos h2, #servicos h3{
+	color: white;
+}
