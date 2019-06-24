@@ -2,14 +2,14 @@
 
 
 /*==============layout===========================*/
-html, body, .capa{
+html, body, .capa{ /*virguala para tags que queira formata*/
 	height: 100%;
 }
 
 body{
 	background: url('img/fundo.jpg');
 	font-family: Helvetica,Arial,sans-serif;
-
+	overflow-x: hidden;/*remove a barra eixo x */
 }
 
 
@@ -24,19 +24,24 @@ nav.navbar-transparente{
 	color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover{/* mudando a cor dos links*/
-	color: #9bf0e1;
+.navbar-inverse .navbar-nav>li>a,footer .nav a {/* mudando a cor dos links*/
+	color: white;
+	
+	
 } 
 
-.navbar-inverse .navbar-nav>li>a{/* mudando a cor dos links*/
-	color: white;
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {/* mudando a cor dos links*/
+	color: #9bf0e1;
+	background: none;
 } 
+
 
 
 
 /*===Imagem de capa====*/
 .capa{
-	display: table; /* tera um comportamento de tabela apra centralizar conforme resoluçao de dispositivos*/
+	display: table; /* tera um comportamento de tabela pra centralizar conforme resoluçao de dispositivos*/
 }
 .texto-capa{
 	text-align: center;
@@ -46,18 +51,34 @@ nav.navbar-transparente{
 }
 
 
-/*===Serviços====*/
+/*===Section Serviços====*/
 #servicos{
 	padding-top: 20px;
+	background: rgba(0,0,0, 0.3);/* cor de fundo preto transparente*/
 }
 
 .foto{
-	padding: 10px 0px 10px 0px;
+	padding: 15px 0px 15px 0px;
+}
+
+/*===Section Recursos====*/
+#recursos{
+	padding-top: 20px;
+	color: white;
 }
 
 
+/*===Rodape====*/
+footer{
+	background: rgba(0,0,0, 0.6);
+	padding: 25px 0px 20px 0px;/* top, esquerda, inferior, direita*/
+}
 
+.logo2{
+	font-size: 30px;
+	color: white;
 
+}
 /*=====================Tipografia formatação de texto======================*/
 h1{
 	font-size: 100px;
@@ -75,6 +96,14 @@ h3{
 	font-weight: 700;
 }
 
-#servicos h2, #servicos h3{
+#servicos h2, #servicos h3{ /* alterando apenas a cor dos titulos h2 e h3 */
 	color: white;
 }
+p{
+	color: white;
+}
+
+#rodape h4{ /*Formatação apenas para h4 que esta dentro do radape*/
+	color: #919496;/*cor cinza*/
+	font-size: 17px;
+
