@@ -10,6 +10,7 @@ body{
 	background: url('img/fundo.jpg');
 	font-family: Helvetica,Arial,sans-serif;
 	overflow-x: hidden;/*remove a barra eixo x */
+	padding-bottom: 200px; /*altura do bodry*/
 }
 
 
@@ -48,11 +49,14 @@ nav.navbar-transparente{
 	color: white;
 	display: table-cell;/*tera um comportamento de celula de tabela*/
 	vertical-align: middle;
+
+
 }
 
 
 /*===Section Serviços====*/
 #servicos{
+
 	padding-top: 20px;
 	background: rgba(0,0,0, 0.3);/* cor de fundo preto transparente*/
 }
@@ -81,6 +85,7 @@ footer{
 }
 /*=====================Tipografia formatação de texto======================*/
 h1{
+
 	font-size: 100px;
 	font-weight: 900;
 	letter-spacing: -0.05px;/*colocando espaçamentos entre letras*/
