@@ -1,0 +1,115 @@
+
+
+
+/*==============layout===========================*/
+html, body, .capa{ /*virguala para tags que queira formata*/
+	height: 100%;
+}
+
+body{
+	background: url('img/fundo.jpg');
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;/*remove a barra eixo x */
+	padding-bottom: 200px; /*altura do bodry mechendo aqui afeta tambem a altura da tabela onde sta o titulo*/
+}
+
+
+/*===Barra de navegação===*/
+nav.navbar-transparente{
+	padding: 15px 0px; /* para deixa a barra mais alta*/
+	background: rgba(0,0,0, 0.6);/* valores final é para transparencia*/
+	border: none;
+}
+.logo{
+	font-size: 30px;
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a,footer .nav a {/* mudando a cor dos links*/
+	color: white;
+} 
+
+
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {/* mudando a cor dos links*/
+	color: #9bf0e1;
+	background: none;
+} 
+
+
+
+
+/*===Imagem de capa====*/
+.capa{
+	display: table; /* tera um comportamento de tabela pra centralizar conforme resoluçao de dispositivos*/
+}
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;/*tera um comportamento de celula de tabela*/
+	vertical-align: middle;
+	padding-left: 320px;/* aumenta a distancia da esquerda para direita*/
+}
+
+
+/*===Section Serviços====*/
+#servico{
+	text-align: center;
+	padding-top: 0px;
+	background: rgba(0,0,0, 0.3);/* cor de fundo preto transparente*/
+}
+
+.tabela{
+	padding: 10px 0px 15px 0px;
+	
+	font-family: Helvetica,Arial,sans-serif;
+
+}
+
+/*===Section Recursos====*/
+#recursos{
+	padding-top: 20px;
+	color: white;
+}
+
+
+/*===Rodape====*/
+footer{
+	background: rgba(0,0,0, 0.6);
+	padding: 25px 0px 20px 0px;/* top, esquerda, inferior, direita*/
+}
+
+.logo2{
+	font-size: 30px;
+	color: white;
+
+}
+/*=====================Tipografia formatação de texto======================*/
+h1{
+
+	font-size: 100px;
+	font-weight: 600;
+	letter-spacing: -0.05px;/*colocando espaçamentos entre letras*/
+
+}
+
+h2{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+h3{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#servicos h2, #servicos h3{ /* alterando apenas a cor dos titulos h2 e h3 */
+	color: white;
+}
+p{
+	color: white;
+}
+
+#rodape h4{ /*Formatação apenas para h4 que esta dentro do radape*/
+	color: #919496;/*cor cinza*/
+	font-size: 17px;
+

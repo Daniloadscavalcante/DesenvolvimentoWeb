@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- viewport é tomanho da tela, quando ver em um dispositivo menor tambem é um viewport porem menor essa é uma tang que se usa para sites responsivel--> 
+
+    <!-- Bootstrap CSS -->
+    <link  href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- importando css -->
+    <link href="estilocontato.css" rel="stylesheet">
+
+    <title>Perfect Body</title>
+  </head>
+
+  <body>
+   
+   <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">  <!-- navbar-fixed-top deixa a barra de navegação no topo navbar-default deixa ela padrao-->
+    <div class="container">
+
+      <!-- header -->
+      <div class="navbar-header">
+        
+        <!-- botao toggle -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao"> <!-- ao  pressionar o botao exibi/oculta o menu 
+          <span class="icon-bar"></span> <!-- cria uma barra com os trees comando monta-se aquele menu lateral com 3 risquinho -->
+          <span class="sr-only">alternar navegação</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="logo">PerfectBody</div>
+
+      </div>
+      
+      <!-- navbar -->
+      <div class="collapse navbar-collapse" id="barra-navegacao"> <!-- serve para escode a barra, quando estiver visualizando em um cel-->
+        <ul class="nav navbar-nav navbar-right"> <!-- barra de navegação a direita -->
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="foto.html">Fotos</a></li>
+          <li><a href="ajuda.html">Ajuda</a></li>
+          <li><a href="contato-nos.html">Cotato-nos</a></li>
+           </ul>
+      </div>
+    </div><!-- fechamento container -->
+  </nav><!-- tag de fechamento da nav -->
+
+    
+ </nav>
+  
+
+      <div class="capa">
+        <div class="texto-capa" style="border: 1px solid red;">
+          <h1>Fale Conosco!</h1>
+          
+        </div>        
+      </div>
+
+      <!-- Conteudos -->
+  <section id="servico" >
+        <div class="container">
+         <div class="row"><!-- criando uma linha -->
+
+          <!-- Conteudo do lado esquerdo -->
+          <div class="col-md-12" style="border: 1px solid red;"> <!-- criando 6 coluna com uma linha -->
+           <!-- row1 foto -->
+              <div class="row tabela">               
+                <!--<form action=http://www.zonadecodigo.com method=post>-->
+                  <div class="col-md-12" style="border: 1px solid red;">
+                     <font color="white">Nome:</font><input type=text size=40 name="nome" placeholder="Nome completo"><!--placeholder coloca no transparente do campo de texto-->
+                 </div>
+               </div>
+
+               <div class="row tabela">
+                 <div class="col-md-12" style="border: 1px solid red;">
+                     <font color="white">Email:</font><input type=text size=40 name="nome" placeholder="Email">
+                 </div>
+               </div>
+                    
+                     <div class="row tabela">
+                        <div class="col-md-12" style="border: 1px solid red;">
+                          
+                            <td><font color="white">Digite sua mensagem </font><br>
+                              <textarea name="mensagem" rows="10" cols="70" placeholder="digite uma mensagem"></textarea>
+                          </td>
+                       </div>
+                   </div>
+                  <tr><td> <input type=submit value="Enviar"></td></tr>
+
+                     
+                 
+                 </form>
+                
+
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+
+ </body>
+</html>
