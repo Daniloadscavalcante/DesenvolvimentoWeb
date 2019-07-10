@@ -1,2 +1,2 @@
 # DesenvolvimentoWeb
-Sistes desenvolvidos com auxilio de videos e foruns
+Sites Desenvolvidos com auxilio de videos e foruns.
