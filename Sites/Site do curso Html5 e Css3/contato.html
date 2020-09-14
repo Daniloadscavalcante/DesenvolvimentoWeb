@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Danilo Santos">
+    <meta name="discription" content="entre em contato com para mais informações">
+    <meta name="robots" content="index, nofollow">
+    <meta name="keyswords" content="contatos, informações, email, telefone">
+
+    <!--compatibilidade-->
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--layout-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <!--css-->
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper container">
+                <div class="logo"><img src="_img/logo.png" alt=""></div>
+                <div>
+                    <ul class="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="quem-somos.html">Quem Somos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Menu mobile-->
+            <ul class="menu-mobile">
+                <li>Menu
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Formulario-->
+    <div class="box">
+        <form action="" method="POST">
+            <fieldset class="box-principal container top">
+                <legend><span class="titulo">Dados Pessoais</span></legend>
+
+                <label for="nome">Seu Nome</label><br>
+                <input type="text" name="nome" id="nome" class="campo" maxlength="40" required autofocus><br>
+
+                <label for="email">Seu Email</label><br>
+                <input type="email" name="email" id="email" class="campo" maxlength="50" required><br>
+
+                <label for="tel">Seu Telefone</label><br>
+                <input type="tel" name="tel" id="tel" class="campo" maxlength="15" required><br>
+
+                <label for="endereco">Seu Endereço</label><br>
+                <input type="endereco" name="endereco" id="endereco" class="campo" maxlength="40" required><br>
+
+                <button type="submit" class="btn">Enviar</button>
+                <button type="reset" class="btn btn-limpar">limpar</button>
+            </fieldset>
+        </form>
+    </div>
+    <!--Rodape-->
+    <footer>
+        <div class="rodape container">
+            <div class="rodape-item">
+                <p><span style="font-size: 1.5em;">HTML5 e CSS3</span></p>
+                <p>Copyright 2018 - Todos os Direitos Reservados.</p>
+            </div>
+            <div class="rodape-item">
+                <p><span style="font-size: 1.5em;">Criando Layout Responsivo</span></p>Com Tecnicas de
+                Flexbox.
+            </div>
+            <div class="rodape-item">
+                <ul class="menu-footer">
+                    <p><span style="font-size: 1.5em;">Links</span></p><br>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Destaques</a></li>
+                    <li><a href="#">Cursos Promocionais</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
