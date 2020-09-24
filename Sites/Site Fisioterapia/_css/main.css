@@ -151,6 +151,45 @@ hr{
   font-size: 1.4em;
   color: rgba(1, 142, 212, 1); 
 }
-figcaption p{
-  te
+/*Footer*/
+.estrela{
+  text-align: center;
+  margin-bottom: -55px;
+  opacity: 50%;
+}
+footer{
+  width: 100%;
+  height: auto;;
+  background-color: rgba(1, 142, 212, 0.42);
+}
+.rodape-logo{
+  text-align: center;
+}
+.rodape-logo img{
+  width: 15%;
+  height: auto;  
+}
+.rodape{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  margin-top: -30px;
+}
+.rodape-item{
+  display: flex;  
+  flex-direction: nowrap;  
+  padding-bottom: 10px; 
+}
+.info-parceiros{
+  margin-bottom: 27px;  
+}
+.rodape-item p{
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.info-rodape .title-rodape{
+  font-size: 1.3em; 
+}
+.info-rodape p{
+  margin-top: 27px;
 }
