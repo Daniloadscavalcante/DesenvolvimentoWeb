@@ -1,4 +1,4 @@
-*{
+*{ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,6 +24,22 @@ body{
   margin-left: 10%;
   margin-top: 30px;
 }
+/*midias social*/
+.box-social{   
+  position: absolute;  
+  right: 10%;  
+  bottom: 0;
+  padding-bottom: 10px; 
+  padding: 10px;
+} 
+.box-social img{
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+.box-social p{
+  text-align: center;
+}
 .img-responsive{
   width: 100%;
   max-width: 100%;
@@ -45,6 +61,7 @@ nav{
   justify-content: center;
   flex-direction: nowrap;
   margin-top: -6px;
+  position: relative;
 }
 ul.menu-desktop{
   list-style-type: none;
@@ -62,9 +79,38 @@ ul.menu-desktop a:hover{
 }
 
 /*MENU MOBILE*/
-ul.menu-mobile{
-  display: none;
+ul.menu-mobile{  
+  list-style-type: none; 
+  position: absolute;
+  background-color:rgba(1, 142, 212, 1);
+  padding-left:10px
 }
+ul.menu-mobile li{
+  font-size: 40px;
+  line-height: 50px;
+  color: #fff; 
+}
+ul.menu-mobile li ul{  
+ width: 170px;
+ line-height: 50px;
+ display: none;   
+  list-style-type: none;
+}
+ul.menu-mobile a{
+  text-decoration: none;
+  color: #fff;  
+}
+ul.menu-mobile li ul li{ 
+  line-height: 50px;
+  font-size: 15px;  
+}
+ul.menu-mobile:hover ul{
+  display: block;  
+}
+ul.menu-mobile li ul li:hover{ 
+  text-decoration: underline;
+}
+
 
 /*Sessão main*/
 .row{
@@ -85,6 +131,7 @@ section.artigos{
   height: auto; 
   margin-bottom: 23px;
   transition: 0.5s;
+  cursor: pointer;
 }
 .art-item:hover{
   box-shadow: 3px 3px 20px gray;
@@ -138,8 +185,7 @@ figcaption{
   text-align: center;  
   padding-top: 20px; 
 }
-figcaption p{
-  padding: 5px;  
+figcaption p{  
   padding-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px; 
@@ -169,21 +215,23 @@ h1{
 }
 /*Footer*/
 .estrela{
-  text-align: center;
-  margin-bottom: -55px;
+  text-align: center;  
   opacity: 50%;
 }
 footer{
   width: 100%;
   height: auto;;
   background-color: rgba(1, 142, 212, 0.42);
+  margin-top: -51px;
 }
 .rodape-logo{
-  text-align: center;
+  text-align: center;  
 }
 .rodape-logo img{
-  width: 15%;
-  height: auto;  
+  width: 30%;
+  height: auto; 
+  margin-top: 24px;
+  opacity: 95%;
 }
 .rodape{
   display: flex;
@@ -198,14 +246,62 @@ footer{
 }
 .info-parceiros{
   margin-bottom: 27px;  
+  margin-top: -30px
+}
+.info-parceiros .rodape-item img{
+  border-radius: 20%;
 }
 .rodape-item p{
   margin-left: 10px;
-  margin-top: 18px;  
+  margin-top: 30px;  
+  cursor: pointer;
 }
 .info-rodape .title-rodape{
-  font-size: 1.3em; 
+  font-size: 1.8em; 
 }
 .info-rodape p{
   margin-top: 27px;
+  font-size: 1.1em
+}
+/*midias queries*/
+@media only screen and (max-width:600px){
+  .container{
+    width: 90%;
+  }
+  figure.depo{
+    margin-left: 20px;
+  }
+  .estrela img{
+    width: 13%;   
+  }
+  footer{
+    margin-top: -31px;
+  }
+  .rodape-item{
+    padding-bottom: 4px;   
+  }
+  .info-parceiros img{
+    width: 20%;  
+    margin-top: 18px;    
+  }
+  .rodape-logo img{
+    width: 25%;
+    height: auto;
+  }
+  ul.menu-desktop{
+    font-size: 15px; 
+  }
+}
+/*Celular*/
+@media only screen and (max-width:360px){
+  ul.menu-desktop{
+    display: none;
+  }
+  ul.menu-mobile{
+    display: block;
+  }
+  .box-section, .hr-1{
+    display: none;
+  }
+  
 }
