@@ -37,6 +37,10 @@ body{
   padding: 5px;
   cursor: pointer;
 }
+ .box-social img:hover{    
+    transform: scale(1.1);
+    transition: 0.7s;
+  }
 .box-social p{
   text-align: center;
 }
@@ -83,7 +87,8 @@ ul.menu-mobile{
   list-style-type: none; 
   position: absolute;
   background-color:rgba(1, 142, 212, 1);
-  padding-left:10px
+  padding-left:10px;
+  display: none;
 }
 ul.menu-mobile li{
   font-size: 40px;
@@ -94,7 +99,7 @@ ul.menu-mobile li ul{
  width: 170px;
  line-height: 50px;
  display: none;   
-  list-style-type: none;
+ list-style-type: none;
 }
 ul.menu-mobile a{
   text-decoration: none;
@@ -265,43 +270,88 @@ footer{
 }
 /*midias queries*/
 @media only screen and (max-width:600px){
+  .estrela img{
+    width: 15%; 
+    height: auto;
+  } 
+  footer{
+    margin-top: -36px;
+  }   
+  .box-social img:hover{    
+    transform: scale(1.1);
+    transition: 0.7s;
+  }
+  .question{
+    font-size: 1.0em;
+  }
   .container{
     width: 90%;
   }
   figure.depo{
     margin-left: 20px;
-  }
-  .estrela img{
-    width: 13%;   
-  }
-  footer{
-    margin-top: -31px;
-  }
-  .rodape-item{
-    padding-bottom: 4px;   
-  }
-  .info-parceiros img{
-    width: 20%;  
-    margin-top: 18px;    
-  }
+  } 
   .rodape-logo img{
     width: 25%;
     height: auto;
   }
-  ul.menu-desktop{
-    font-size: 15px; 
-  }
+  .info-parceiros{
+    font-size: 0.6em;
+    padding-top: 10px;
+  }  
 }
 /*Celular*/
-@media only screen and (max-width:360px){
+@media only screen and (max-width:500px){
+  .box-social{
+    bottom: ;
+    top: 55%;
+    opacity: 90%;
+    transition: 0.7s;
+  }
+  .box-social img:hover{    
+    transform: scale(1.1);
+    transition: 0.7s;
+  }
+  h1{
+    text-align: center;
+  }
+  .estrela img{
+    width: 15%;
+  }
   ul.menu-desktop{
     display: none;
   }
   ul.menu-mobile{
     display: block;
   }
-  .box-section, .hr-1{
+  .row-txt-justify, .hr-1{
     display: none;
+  }  
+  .container{
+    width: 95%;
   }
+  .art-item{
+    width: 49%;    
+  }
+  .art-item:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+  .info-rodape .title-rodape{
+    font-size: 1.1em;
+  }
+  .info-rodape p{
+    font-size: 0.8em;
+  }
+  .info-parceiros img{
+    width: 25%;     
+  }
+  .info-parceiros p{
+    font-size: 0.9em;
+    margin-top: 10%;
+  }
+  .copy{
+    font-size: 0.8em;
+  }
+  
   
 }
