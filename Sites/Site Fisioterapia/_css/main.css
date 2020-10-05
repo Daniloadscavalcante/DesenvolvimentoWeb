@@ -1,4 +1,4 @@
-*{ 
+*{  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -223,17 +223,52 @@ h1{
 }
 
 /*Pg Tratamentos*/
+/*Logo invertido*/
+.logo{
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 20%;
+ 
+  margin-top: 30px;
+}
 .tratamentos{
   margin-top: 60px;
 }
-.img-tratamentos{
-  background-color: orange;
+.img-art{  
   display: flex;
   flex-wrap: nowrap;  
-  margin-bottom: 10px;   
+  margin-bottom: 30px;    
 }
-.img-tratamentos p{
-  padding-left: 20px;
+.img-art img{
+  width: 60%;
+  transition: 0.5s;
+}
+.img-art img:hover{
+  opacity: 60%;
+  transition: 0.5s;
+}
+.txt{
+ width: 70%;
+ height: auto;  
+ transition: 0.5s;
+}
+.txt:hover{
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.txt p{   
+  text-align: center;
+  padding: 0 10px;
+  font-size: 0.9em;
+  color: #444;    
+}
+.txt h3{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #018ed4;
+  text-align: center;
+  margin-top: 40px;
 }
 
 /*Footer*/
