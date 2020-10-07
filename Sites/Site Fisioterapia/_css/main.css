@@ -224,12 +224,11 @@ h1{
 
 /*Pg Tratamentos*/
 /*Logo invertido*/
-.logo{
+.logo1{
   width: 20%;
   position: absolute;
   top: 0;
-  right: 20%;
- 
+  right: 20%; 
   margin-top: 30px;
 }
 .tratamentos{
@@ -241,12 +240,12 @@ h1{
   margin-bottom: 30px;    
 }
 .img-art img{
-  width: 60%;
+  width: 60%;  
   transition: 0.5s;
 }
 .img-art img:hover{
   opacity: 60%;
-  transition: 0.5s;
+  transition: 0.5s; 
 }
 .txt{
  width: 70%;
@@ -323,6 +322,13 @@ footer{
 }
 /*midias queries*/
 @media only screen and (max-width:600px){
+   .logo1{
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 11%; 
+  margin-top: 1px;
+}
   .estrela img{
     width: 15%; 
     height: auto;
@@ -333,7 +339,7 @@ footer{
   .box-social img:hover{    
     transform: scale(1.1);
     transition: 0.7s;
-  }
+  } 
   .question{
     font-size: 1.0em;
   }
@@ -351,9 +357,24 @@ footer{
     font-size: 0.6em;
     padding-top: 10px;
   }  
+  .img-art img{
+    width: 60%;
+    height: auto;
+  }
+  .txt h3{
+  margin-top: 0;  
+  }
+  
 }
 /*Celular*/
 @media only screen and (max-width:500px){
+  .logo1{
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 20%; 
+  margin-top: 5px;
+}
   .box-social{
     bottom: ;
     top: 55%;
@@ -374,13 +395,14 @@ footer{
     display: none;
   }
   ul.menu-mobile{
-    display: block;
+    display: block;   
+    z-index: 1;
   }
   .row-txt-justify, .hr-1{
     display: none;
   }  
   .container{
-    width: 95%;
+    width: 95%;    
   }
   .art-item{
     width: 49%;    
@@ -404,6 +426,20 @@ footer{
   }
   .copy{
     font-size: 0.8em;
+  }
+  .img-art img{
+    width: 98%;     
+  }
+  .txt{
+    width: 95%;
+    position: absolute;
+    margin-top: 10%;    
+  }
+  .txt p{
+    color: rgba(0,0,0, 0.8);     
+  }  
+  h3{
+    display: none;
   }
   
   
