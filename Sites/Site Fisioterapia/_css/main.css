@@ -222,8 +222,8 @@ h1{
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
-/*Pg Tratamentos*/
-/*Logo invertido*/
+/*Pagina Tratamentos*/
+/*logo invertido*/
 .logo1{
   width: 20%;
   position: absolute;
@@ -269,7 +269,38 @@ h1{
   text-align: center;
   margin-top: 40px;
 }
-
+/*Pagina SOBRE-NÓS*/
+.title-sobre-nos{
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 35px;
+  color: #436ebe;
+  font-weight: 700;
+  margin-top:4%;  
+  text-align: center;
+}
+.txt-intro p{
+  text-align: center;  
+}
+.workspace{
+  text-align: center;  
+  background-color: orange
+}
+.prof{   
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+}
+.fig-prof{
+  width: 25%;
+}
+figure >div{
+  text-align: center;
+  color: #018ED4;
+  font-size: 1.3em;
+}
+figure img{
+  border-radius: 100%;
+}
 /*Footer*/
 .estrela{
   text-align: center;  
