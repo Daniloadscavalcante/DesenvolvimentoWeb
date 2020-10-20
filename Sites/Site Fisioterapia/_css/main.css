@@ -74,7 +74,7 @@ ul.menu-desktop{
 ul.menu-desktop a{
   text-decoration: none;  
   color: #fff;
-  padding: 0 20px;
+  padding: 0 30px;
   line-height: 50px;  
   font-family: 
 }
@@ -274,32 +274,52 @@ h1{
   font-family: "Quattrocento Sans", sans-serif;
   font-size: 35px;
   color: #436ebe;
-  font-weight: 700;
-  margin-top:4%;  
+  font-weight: 700;    
   text-align: center;
 }
 .txt-intro p{
   text-align: center;  
+  padding-top: 20px
 }
+/*img da clinica*/
 .workspace{
-  text-align: center;  
-  background-color: orange
+  margin-top: 50px;
+  text-align: center;   
+  max-height: 100%;
+  max-width: 626px;
+}
+.title-prof{
+  margin-top:6%;
 }
 .prof{   
+  width: 60%;  
+  height: auto;
   display: flex;
-  flex-wrap: wrap;  
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content:center;    
+}
+.second-img{
+  width: 60%; 
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;    
+  margin-top: 50px;  
+  margin-bottom: 50px;
+  justify-content: center;
 }
 .fig-prof{
-  width: 25%;
+  width: 20%; 
+  margin-left: 20px
 }
+/*Nomes do profissionais*/
 figure >div{
   text-align: center;
   color: #018ED4;
   font-size: 1.3em;
+  margin-top: 15px;
 }
-figure img{
-  border-radius: 100%;
+figure.fig-prof img{
+  border-radius: 100%;   
 }
 /*Footer*/
 .estrela{
@@ -394,6 +414,9 @@ footer{
   }
   .txt h3{
   margin-top: 0;  
+  }
+  ul.menu-desktop a{
+    padding: 0 20px;
   }
   
 }
