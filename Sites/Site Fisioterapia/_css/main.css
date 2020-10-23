@@ -321,6 +321,42 @@ figure >div{
 figure.fig-prof img{
   border-radius: 100%;   
 }
+
+/*PAGINA AGENDAR CONSULTA*/
+.formulario{     
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  
+}
+.campo{
+  width: 350px;  
+  height: 50px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  margin-left: 20px;
+  max-width: 100%;
+}
+.caixa-txt{
+  text-align: center;
+  background-color: blue;
+}
+legend{
+  padding: 0px;
+  background-color: green;
+}
+.titulo2{
+  background-color: yellow;
+  width: 60%;
+  margin: auto;
+}
+.titulo2 p{
+  font-size: 1.3em;
+  font-weight: 800;
+}
+textarea{
+  max-width: 100%;
+}
 /*Footer*/
 .estrela{
   text-align: center;  
