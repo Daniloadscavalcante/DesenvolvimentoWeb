@@ -323,30 +323,24 @@ figure.fig-prof img{
 }
 
 /*PAGINA AGENDAR CONSULTA*/
-.formulario{     
-  background-color: orange;
+.formulario{    
   display: flex;
-  justify-content: center;
-  
+  justify-content: center;  
+  margin-top: 50px;
+  margin-bottom: 20px
 }
 .campo{
-  width: 350px;  
+  width: 300px;  
+  padding-left: 10px;
   height: 50px;
   margin-bottom: 10px;
-  border: 1px solid #ddd;
-  margin-left: 20px;
-  max-width: 100%;
+  border: 1px solid #ddd;  
+  margin-left: 20px;  
 }
 .caixa-txt{
-  text-align: center;
-  background-color: blue;
+  text-align: center;  
 }
-legend{
-  padding: 0px;
-  background-color: green;
-}
-.titulo2{
-  background-color: yellow;
+.titulo2{   
   width: 60%;
   margin: auto;
 }
