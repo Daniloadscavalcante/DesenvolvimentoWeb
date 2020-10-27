@@ -402,7 +402,7 @@ footer{
   font-size: 1.1em
 }
 /*midias queries*/
-@media only screen and (max-width:600px){
+@media only screen and (max-width:800px){
    .logo1{
   width: 20%;
   position: absolute;
@@ -448,7 +448,12 @@ footer{
   ul.menu-desktop a{
     padding: 0 20px;
   }
-  
+  .campo{
+    width: 220px;     
+  }
+  .titulo2{
+    text-align: center;
+  }
 }
 /*Celular*/
 @media only screen and (max-width:500px){
