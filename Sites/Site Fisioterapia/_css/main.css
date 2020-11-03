@@ -351,6 +351,14 @@ figure.fig-prof img{
 textarea{
   max-width: 100%;
 }
+/*PAGINA CONTATO*/
+.info-contato{
+  margin-top: 10%;  
+}
+.info-contato p{
+  padding: 10px;
+  font-weight: 550;
+}
 /*Footer*/
 .estrela{
   text-align: center;  
