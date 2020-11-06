@@ -353,11 +353,17 @@ textarea{
 }
 /*PAGINA CONTATO*/
 .info-contato{
-  margin-top: 10%;  
+  margin-top: 7%;
+  margin-bottom: 3%;
+  background-color:rgba(1, 142, 212, 0.1);
+  
 }
 .info-contato p{
   padding: 10px;
   font-weight: 550;
+}
+iframe{
+  width: 100%; 
 }
 /*Footer*/
 .estrela{
