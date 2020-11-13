@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box-header{
+  height: auto;
+  background-color: #FFF159;
+  height: 56px;   
+}
+.header-logo{
+  width: 80%;
+  margin: auto;
+}
