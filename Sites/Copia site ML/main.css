@@ -5,9 +5,36 @@
 .box-header{
   height: auto;
   background-color: #FFF159;
-  height: 56px;   
+  height: 56px;  
+  border: 1px solid rgba(0,0,0,0.1);
 }
 .header-logo{
   width: 80%;
   margin: auto;
+}
+.box-background{
+  width: 100%;
+  height: 296px;
+  background-color: #FFEA78;
+}
+.box-background h2{
+  padding-top: 8%;
+  padding-left: 15%;
+  font-size: 30px;  
+  font-family: Arial,sans-serif,sans-serif;
+  line-height: 50px;
+}
+section.artigos{
+  width: 750px;
+  margin: auto;
+  background-color: orange;
+  height: auto;
+  display: flex;  
+  flex-wrap: wrap;
+}
+.art-item{
+  width: 174px;
+  height: 174px;
+  background-color: blue;
+  margin-left: 10px;
 }
