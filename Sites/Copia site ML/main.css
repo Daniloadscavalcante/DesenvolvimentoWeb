@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .box-header{
   height: auto;
@@ -27,14 +28,31 @@
 section.artigos{
   width: 750px;
   margin: auto;
-  background-color: orange;
+  background-color: ;
   height: auto;
   display: flex;  
   flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -60px
 }
 .art-item{
-  width: 174px;
+  width: 24%;
   height: 174px;
-  background-color: blue;
-  margin-left: 10px;
+  background-color: #FFFFFF;
+  margin: 10px;  
+  transition: 0.2s;
+  border: 1px solid rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.art-item:hover{
+  box-shadow: 1px 3px 20px rgba(0,0,0, 0.2);
+  transition: 0.3s;
+}
+article{
+  text-align: center;  
+}
+article img{
+  background-color: orange;
+  width: 86px;  
+  margin-top: 60px;
 }
