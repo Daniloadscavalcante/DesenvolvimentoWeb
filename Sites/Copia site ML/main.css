@@ -47,8 +47,7 @@ section.artigos{
   cursor: pointer;
   z-index: 1; 
   border-radius: 5px;
-  border: 1px solid rgba(0,0,0, 0.2);
-    
+  border: 1px solid rgba(0,0,0, 0.2);    
 }
 .art-item:hover{
   box-shadow: 1px 3px 20px rgba(0,0,0, 0.2);
@@ -66,17 +65,32 @@ article{
 }
 .fundo-cinza p{
   position: absolute;
-  bottom: 0;
+  bottom: 5%;
   left: 6%;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 25px;
+  color: rgba(0,0,0, 0.4);
 }
-
-.textos p{
-  color: black;
-  
-  width: 86%;
+.box-white{
+  position: absolute;
+  width: 100%;
+  bottom: 0;  
+  height: 89px;  
   margin: auto;
-  font-size:13px;
-
+}
+.info-rodape{  
+  width: 89%;
+  margin: auto;
+  font-size: 12px;
+  padding-top: 15px;
+}
+.info-rodape a{
+  padding:  0 6px ;
+  text-decoration: none;
+  color: #373737;  
+}
+.info-rodape p{
+  color: #A5A5A5;
+  font-size: 11px;
+  padding: 0 4px;
 }
