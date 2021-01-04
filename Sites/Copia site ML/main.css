@@ -12,6 +12,9 @@
 .header-logo img{
   padding-left: 10px;
 }
+.logo-mobile{
+  display: none;
+}
 .box-header{
   height: auto;
   background-color: #FFF159;
@@ -145,9 +148,53 @@ vertical-align: top;
   font-size: 11px;
   padding: 0 4px;
 }
+/*menu-mobile*/
+label{
+ display: none
+}
+.risco{
+  border: 1px solid rgba(51,51,51, 0.8);
+  width: 23px;
+  display: inline-block;
+  margin-bottom: 5px;  
+}
 /*TIPOGRAFIA*/
 section p{
 font-size: 12px;
 margin-top: 23px;
 color: #434343;
+}
+/*medias queries*/
+@media only screen and (max-width:1024px){
+  .usename{
+    display: none;
+  }
+  label{
+  width: 40px; 
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 10px;
+  height: 56px;
+  justify-content: center;  
+  }
+  .header-logo img{
+    display: none;
+  }
+  .header-logo .logo-mobile{
+    display: block;
+  }
+  .container{
+    width: 100%;
+  }
+  div.button-app{
+    display: none;
+  }
+  div.box-white a{
+    display: none;    
+  }  
 }
